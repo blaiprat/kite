@@ -5,10 +5,10 @@
 angular.module('KiteMail.filters', ['KiteMail.services']).
     filter('truncate', function() {
             return function(text) {
-            return text.slice(0, 35) + "...";
-        }
+            return text.slice(0, 35) + "…";
+        };
     }).
-    
+
     /* takes a date object and returns a formatted object */
     filter('formatDate', function(Utils) {
         return function(date) {
@@ -20,5 +20,5 @@ angular.module('KiteMail.filters', ['KiteMail.services']).
             } else {
                 return da[1] + ", " + da[2] + ", " + da[3];
             }
-        }  
+        };
     });
