@@ -16,9 +16,22 @@ When it's done, run the following commands :
     vagrant ssh
     sudo -s -u kite
     cd /home/kite
-    python app/back/kite/server.py 
+    python app/back/kite/server.py
+
+
 
 After this, browse to http://192.168.50.4 . You should be greeted by a login window. Use whatever username/password combination to login.
+
+### Working with front end part
+
+To work with front end, we're using [Grunt](http://gruntjs.com). Visit their website for detailed instructions of how to install it
+To use it on this project, make sure you have all the necessary node modules installed using `npm install`
+
+Execute `grunt` to compile the SCSS
+Execute `grunt dev` to compile the SCSS and keep listening to changes on the file (LiveReload is enabled)
+
+(TODO: Add and process also the Javascript)
+
 
 ### Contact/Help
 

@@ -1,11 +1,14 @@
 {
-  "name": "angualrjs-seed",
-  "description": "A starter project for angular js",
+  "name": "Kite",
+  "description": "Kite is a modern webmail written in angularjs",
   "devDependencies": {
-        "phantomjs" : "*",
-        "karma" : "*",
-        "karma-junit-reporter" : "*",    
-        "karma-jasmine" : "*",
-        "karma-ng-scenario" : "*"
-    }
+    "phantomjs": "*",
+    "karma": "*",
+    "karma-junit-reporter": "*",
+    "karma-jasmine": "*",
+    "karma-ng-scenario": "*",
+    "grunt": "~0.4.1",
+    "grunt-contrib-sass": "~0.5.0",
+    "grunt-contrib-watch": "~0.5.3"
+  }
 }
