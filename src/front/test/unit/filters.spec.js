@@ -13,7 +13,7 @@ describe('filter', function() {
 
     it('should truncate text', inject(function(Utils, truncateFilter) {
         var testStr = "This is a long string with a lot of chars";
-        var resStr = "This is a long string with a lot of" + "...";
+        var resStr = "This is a long string with a lot of" + "…";
         expect(truncateFilter(testStr)).toEqual(resStr);
     }));
 
