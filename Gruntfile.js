@@ -7,7 +7,9 @@ module.exports = function(grunt) {
                 options: {
                     style: 'expanded'
                 },
-                files: {}
+                files: {
+                    'src/front/app/css/kite.css': 'src/assets/sass/kite.scss'
+                }
             }
         },
         watch: {

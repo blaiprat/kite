@@ -2,6 +2,8 @@
 *.swp
 .vagrant
 
+src/front/app/css
+
 # Node modules
 node_modules
 
