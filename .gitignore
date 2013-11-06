@@ -2,6 +2,9 @@
 *.swp
 .vagrant
 
+# Node modules
+node_modules
+
 # C extensions
 *.so
 
@@ -33,3 +36,4 @@ nosetests.xml
 .mr.developer.cfg
 .project
 .pydevproject
+.sass-cache
